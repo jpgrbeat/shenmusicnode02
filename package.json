@@ -1,0 +1,30 @@
+{
+  "name": "shen-music-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "gulp-mocha": "^6.0.0",
+    "helmet": "^3.15.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.1",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "should": "^13.2.3",
+    "sinon": "^7.2.2"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.1",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2"
+  }
+}
